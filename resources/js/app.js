@@ -13,10 +13,12 @@ import { createApp } from 'vue';
  * to use in your application's views. An example is included for you.
  */
 
-const app = createApp({});
+const app = createApp({ el: '#app'});
 
-import ExampleComponent from './components/ExampleComponent.vue';
-app.component('example-component', ExampleComponent);
+import ProductList from './components/ProductList.vue';
+
+app.component('product-list', ProductList);
+
 
 /**
  * The following block of code may be used to automatically register your
