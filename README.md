@@ -25,11 +25,11 @@ Table of Contents
 ## Installation
 1. Clone the repository to your local machine:
 
-    "git clone <repository-url>""
+    " git clone 'repository-url' "
 
 2. Navigate to the project directory:
 
-    "cd <folder-name>"
+    " cd 'folder-name' "
 
 3. Install the dependencies using npm:
 
